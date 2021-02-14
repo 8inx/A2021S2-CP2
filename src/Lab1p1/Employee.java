@@ -1,4 +1,3 @@
-
 import java.text.DecimalFormat;
 
 public class Employee
@@ -43,8 +42,5 @@ public class Employee
         System.out.println(" CA        : " + df2.format(cashAdv));
         netPay = grossPay - (tax + sss + cashAdv);
         System.out.println(" Net Pay   : " + df2.format(netPay));
-
-
-
     }
 }

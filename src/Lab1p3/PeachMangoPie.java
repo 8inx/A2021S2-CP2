@@ -7,6 +7,7 @@ public class PeachMangoPie
         Scanner scan = new Scanner(System.in);
         int num1, num2, old_num;
 
+        // display input
         System.out.print(" Input first  number: ");
         num1 = scan.nextInt();
         System.out.print(" Input second number: ");
@@ -15,6 +16,7 @@ public class PeachMangoPie
         // divider
         System.out.println("\n ------------------------\n");
 
+        // display
         System.out.println(" --Before exchange--");
         System.out.println(" First  number: " + num1);
         System.out.println(" Second number: " + num2);
