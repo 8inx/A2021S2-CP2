@@ -8,7 +8,7 @@ A repository for my computer programming 2
 - OpenJDK version11
 - GNU Make
 
-## Operation Sytem
+## Operating Sytem
 - Ubuntu 20.04 LTS
 
 
