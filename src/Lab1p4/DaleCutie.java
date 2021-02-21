@@ -1,8 +1,8 @@
 import java.util.Scanner;
 import java.text.DecimalFormat;
 
-public class DaleCutie {
-    
+public class DaleCutie 
+{
     private static DecimalFormat df2 = new DecimalFormat("#.00");
     
     public static void main(String[] args) {
@@ -17,7 +17,6 @@ public class DaleCutie {
         float rate, tuitionFee, total;
         float regFee = 350.00f;
         float miscFee = 1800.20f;
-
 
         // display input
         System.out.print(" Last name of Student \t: ");
@@ -49,5 +48,4 @@ public class DaleCutie {
 
         scan.close();
     }
-
 }

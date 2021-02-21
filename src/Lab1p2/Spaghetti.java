@@ -3,7 +3,6 @@ import java.text.DecimalFormat;
 
 public class Spaghetti
 {
-
     private static DecimalFormat df2 = new DecimalFormat("#.00");
     public static void main(String[] args) {
 
