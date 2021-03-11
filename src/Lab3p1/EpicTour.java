@@ -6,7 +6,7 @@ public class EpicTour {
 
         String touristName="";
         int hotelCode, guideCode, numTourDays;
-        double totalFee;
+        double totalFee, ratesPerDay;
 
         // index 0 is not used, it is to make array indexing simple
         String[] hotelNames = { "",
@@ -20,7 +20,7 @@ public class EpicTour {
                 "Diega Silang",
                 "Sabel Lopes"
         };
-        Double[] ratesPerDay = { 0.0,
+        Double[] rates = { 0.0,
             1106.00,
             930.90,
             920.30,
@@ -51,10 +51,11 @@ public class EpicTour {
         System.out.println("Tour Days     : " + numTourDays);
         // display rates/day using guide code; ex guideCode=1, ratesperDay[1] = 1106
         // use String.format to display double having two(2) decimal places
-        System.out.println("Rate per Day  : "+ String.format("%.2f", ratesPerDay[guideCode]) + "\n");
+        System.out.println("Rate per Day  : "+ String.format("%.2f", rates[guideCode]) + "\n");
 
         // compute for total fee and print
-        totalFee = ratesPerDay[guideCode] * numTourDays;
+        ratesPerDay = rates[guideCode];
+        totalFee = ratesPerDay * numTourDays;
         System.out.println("Total Fee     : " + String.format("%.2f", totalFee));
 
         input.close();
